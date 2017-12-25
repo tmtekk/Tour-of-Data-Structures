@@ -19,8 +19,18 @@ namespace cSharpNode
             set { this.data = value; }
         }
 
-
-
-
+        //properties for next node
+        public csNode Next{
+            get { return this.next; }
+            set { this.next = value; }
+        }
     }
+
+	class ProgramEntry
+	{
+		static void Main(string[] args)
+		{
+			
+		}
+	}
 }
