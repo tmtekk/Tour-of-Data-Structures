@@ -1,0 +1,10 @@
+/Users/owner/Desktop/Programming/Tour-of-Data-Structures/Node/cSharpNode/bin/Debug/netcoreapp1.1/cSharpNode.deps.json
+/Users/owner/Desktop/Programming/Tour-of-Data-Structures/Node/cSharpNode/bin/Debug/netcoreapp1.1/cSharpNode.runtimeconfig.json
+/Users/owner/Desktop/Programming/Tour-of-Data-Structures/Node/cSharpNode/bin/Debug/netcoreapp1.1/cSharpNode.runtimeconfig.dev.json
+/Users/owner/Desktop/Programming/Tour-of-Data-Structures/Node/cSharpNode/bin/Debug/netcoreapp1.1/cSharpNode.dll
+/Users/owner/Desktop/Programming/Tour-of-Data-Structures/Node/cSharpNode/bin/Debug/netcoreapp1.1/cSharpNode.pdb
+/Users/owner/Desktop/Programming/Tour-of-Data-Structures/Node/cSharpNode/obj/Debug/netcoreapp1.1/cSharpNode.csprojResolveAssemblyReference.cache
+/Users/owner/Desktop/Programming/Tour-of-Data-Structures/Node/cSharpNode/obj/Debug/netcoreapp1.1/cSharpNode.csproj.CoreCompileInputs.cache
+/Users/owner/Desktop/Programming/Tour-of-Data-Structures/Node/cSharpNode/obj/Debug/netcoreapp1.1/cSharpNode.AssemblyInfo.cs
+/Users/owner/Desktop/Programming/Tour-of-Data-Structures/Node/cSharpNode/obj/Debug/netcoreapp1.1/cSharpNode.dll
+/Users/owner/Desktop/Programming/Tour-of-Data-Structures/Node/cSharpNode/obj/Debug/netcoreapp1.1/cSharpNode.pdb
