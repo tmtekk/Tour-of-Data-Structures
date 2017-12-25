@@ -1,4 +1,5 @@
-
+#Tim Miller
+#simple python class for a node data structure
 class Node(object):
     """docstring for Node."""
     def __init__(self, data, nextNode=None):
