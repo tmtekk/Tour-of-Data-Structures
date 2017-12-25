@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{90792C18-B48E-43C4-96A2-E87F46A36FCF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="cSharpNode.cs">
+    <Files>
+      <File FileName="cSharpNode.cs" Line="5" Column="11" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.cSharpNode PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
