@@ -4,8 +4,8 @@ namespace cSharpNode
 {
    public class csNode
     {
-	    private object data;
-	    private csNode next;
+	  private object data;
+	  private csNode next;
 
         //constructor for the node
         public csNode(csNode next, object data){
