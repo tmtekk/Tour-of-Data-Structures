@@ -1,3 +1,5 @@
+//Tim Miller
+//Node data structure in c#
 ﻿using System;
 
 namespace cSharpNode
@@ -30,7 +32,7 @@ namespace cSharpNode
 	{
 		static void Main(string[] args)
 		{
-			
+
 		}
 	}
 }
