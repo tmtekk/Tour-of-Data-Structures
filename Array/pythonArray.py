@@ -1,5 +1,4 @@
 #Tim Miller
-#A simple array data structure
+#A basic array data structure
 
 class Array:
-    
