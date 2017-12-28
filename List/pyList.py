@@ -2,24 +2,23 @@
 #Basic singly-linked list in python
 
 class List(object):
-    def __init__(self, head=None):
-        self.head = head
+    def __init__(self):
+        self.head = None
 
     ##append method adds a new node to end of the list
     def append(self, link):
+        newNode = Node(link)
         if self.head == None:
             #create new head node if it doesn't exist
             self.head = Node(link)
             return
         #set the current node equal to the head node
-        current.nextNode = self.head
-        #point to the new node
-        self.head = newNode
+        current = self.head
         #set current node to the next node,
         #until the next is not null
-        while current.nextNode != None:
-            current = current.nextNode
-        current.next = Node(link)
+        while current.getNext():
+            current = current.getNext()
+        current.setNext(newNode)
 
     ##prepend method adds node to the front of the list
     def prepend(self, link):
@@ -57,7 +56,7 @@ class List(object):
         newNode = self.head
         for i in range(index):
             newNode = newNode.getNext()
-        return node.getData()
+        return newNode.getData()
 
     ##method to set element in list
     def setElement(self, index):
@@ -67,22 +66,58 @@ class List(object):
         return newNode.setData()
 
     ##boolean method to check if the list is empty
-    def isEmpty():
+    def isEmpty(self):
         if self.head == None:
             return True
+        return False
+
+    ##method to return the head data value
+    def getHead(self, link):
+        link = self.head
+        return link
 
 #node class used for the items in the list
 class Node(object):
-    def __init__(self, data, nextNode=None):
+    def __init__(self, data, nextNode = None):
         self.data = data
-        self.next = nextNode
+        self.nextNode = nextNode
 
-    def getData(self, data):
+    def getData(self):
         return self.data
-    def getNext(self,  nextNode):
+    def getNext(self):
         return self.nextNode
 
-    def setData(self, data):
+    def setData(self):
         self.data = data
     def setNext(self, nextNode):
         self.nextNode = nextNode
+
+def main():
+    #test that the new list is empty
+    newHead = List()
+    if newHead.isEmpty():
+        print("No elements in the list yet")
+    else:
+        print("The lsit is not empty")
+
+    #add an item and print it out
+    newHead2 = List()
+    newHead2.append("Bob")
+    res = newHead2.getElement(0)
+    print(res)
+
+    #add multiple items and print them out
+    newHead3 = List()
+    newHead3.append("Bob")
+    newHead3.append("Tim")
+    newHead3.append("Sam")
+    res0 = newHead3.getElement(0)
+    res1 = newHead3.getElement(1)
+    res2 = newHead3.getElement(2)
+    print(res0)
+    print(res1)
+    print(res2)
+
+
+if __name__ == "__main__":
+        main()
