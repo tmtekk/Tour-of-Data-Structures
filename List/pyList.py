@@ -66,6 +66,11 @@ class List(object):
             newNode = newNode.getNext()
         return newNode.setData()
 
+    ##boolean method to check if the list is empty
+    def isEmpty():
+        if self.head == None:
+            return True
+
 #node class used for the items in the list
 class Node(object):
     def __init__(self, data, nextNode=None):
