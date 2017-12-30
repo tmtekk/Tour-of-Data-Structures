@@ -9,15 +9,15 @@ data structures and algorithms in various programming languages.
 I plan on starting with the basic, well-known data structures and eventually
 move to lesser-known ones.
 **My tentative todo list so far is:**
-- Node
-- Linked List
-- Stack
-- Queues
-- Set
-- Trees
-- Heaps
-- Hashes
-- Various Graphs
-- Treap
-- Suffix Array
-- Kinetic Data Structures
+* Node
+* Linked List
+* Stack
+* Queues
+* Set
+* Trees
+* Heaps
+* Hashes
+* Various Graphs
+* Treap
+* Suffix Array
+* Kinetic Data Structures
