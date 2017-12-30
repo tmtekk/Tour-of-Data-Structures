@@ -9,7 +9,7 @@ data structures and algorithms in various programming languages.
 I plan on starting with the basic, well-known data structures and eventually
 move to lesser-known ones.
 
-# My tentative todo list so far is:
+**My tentative todo list so far is:**
 
 * Node
 * Linked List
