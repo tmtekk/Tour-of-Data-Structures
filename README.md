@@ -1,7 +1,10 @@
 # Tour-of-Data-Structures
-#Tim Miller
 
+<blockquote>
 This repository is intended to hold implementations of various data structures.
+</blockquote>
 I've taken the standard university computer science classes which teach data
 structures, but, with the goal of continuing my education, I intend to research and implement
 data structures and algorithms in various programming languages.
+I plan on starting with the basic, well-known data structures and eventually
+move to lesser-known ones.
