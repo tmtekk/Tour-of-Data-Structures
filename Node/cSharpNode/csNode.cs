@@ -1,6 +1,6 @@
 //Tim Miller
-//Node data structure in c#
-﻿using System;
+//Simple node data structure in c#
+using System;
 
 namespace cSharpNode
 {
