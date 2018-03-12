@@ -10,19 +10,22 @@ namespace cSharpNode
 	private csNode next;
 
         //constructor for the node
-        public csNode(csNode next, object data){
+        public csNode(csNode next, object data)
+        {
             this.data = data;
             this.next = next;
         }
 
         //properties for data
-        public object Data{
+        public object Data
+        {
             get { return this.data; }
             set { this.data = value; }
         }
 
         //properties for next node
-        public csNode Next{
+        public csNode Next
+        {
             get { return this.next; }
             set { this.next = value; }
         }
